@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La nostra Roma 💧</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+  <!-- Tela inicial -->
+  <div id="intro" class="fade-in">
+    <h1>Buon Natale, amore mio 🎄</h1>
+    <p>Questa è la nostra Roma dei <strong>nasoni</strong>.<br>
+    Segniamo insieme tutti quelli che abbiamo già trovato 💙</p>
+    <button id="enterButton">Entra nella mappa 💧</button>
+  </div>
+
+  <!-- Mapa -->
+  <div id="mapContainer" class="hidden">
+    <div id="header">
+      <h2>La nostra Roma dei Nasoni 💙</h2>
+      <p id="counter">Nasoni visitati: 0</p>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
