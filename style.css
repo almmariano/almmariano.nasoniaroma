@@ -32,17 +32,25 @@ html, body {
 }
 
 #enterButton {
-  background-color: red;
+  background: linear-gradient(135deg, #ff4d4d, #ff0000, #cc0000);
   color: white;
-  border: none;       /* opcional: remove borda padrão */
-  padding: 10px 20px; /* opcional: aumenta o tamanho do botão */
-  border-radius: 5px; /* opcional: cantos arredondados */
-  cursor: pointer;    /* opcional: muda o cursor ao passar o mouse */
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 15px rgba(255,0,0,0.4);
+  transition: all 0.3s ease;
 }
 
 #enterButton:hover {
-  background: #005f8d;
+  background: linear-gradient(135deg, #ff1a1a, #e60000, #990000);
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 8px 20px rgba(255,0,0,0.6);
 }
+
 
 .hidden {
   display: none;
@@ -75,3 +83,4 @@ html, body {
   to { opacity: 1; }
 
 }
+
